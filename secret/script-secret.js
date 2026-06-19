@@ -13,5 +13,5 @@ function doRunaway() {
 btnReturnSecret.addEventListener('mouseover', doRunaway);
 
 btnReturnSecret.addEventListener('click', () => {
-    window.location.href = '../start/index.html';
+    window.location.href = '../index.html';
 });
