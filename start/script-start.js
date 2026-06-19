@@ -14,9 +14,9 @@ function doRunaway() {
 btnRunaway.addEventListener('mouseover', doRunaway);
 
 btnRunaway.addEventListener('click', () => {
-    window.location.href = 'congratulations.html';
+    window.location.href = '../congratulations/congratulations.html';
 });
 
 btnSecret.addEventListener('click', () => {
-    window.location.href = 'secret.html';
+    window.location.href = '../secret/secret.html';
 });

@@ -1,4 +1,4 @@
-const btnReturnSecret = document.getElementById('btn-return-seecret');
+const btnReturnSecret = document.getElementById('btn-return-secret');
 
 function doRunaway() {
     btnReturnSecret.style.position = 'absolute';
@@ -13,5 +13,5 @@ function doRunaway() {
 btnReturnSecret.addEventListener('mouseover', doRunaway);
 
 btnReturnSecret.addEventListener('click', () => {
-    window.location.href = 'index.html';
+    window.location.href = '../start/index.html';
 });
